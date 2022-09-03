@@ -4,7 +4,7 @@
   "description": "Listen 24/7 music designed for coding",
   "keywords": ["quranradio", "freecodecamp", "radio", "streaming", "music"],
   "publisher": "lakuapik",
-  "icon": "icon.png",
+  "icon": "logo.png",
   "version": "0.0.1",
   "license": "MIT",
   "engines": {
