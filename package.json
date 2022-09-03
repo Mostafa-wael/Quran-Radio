@@ -1,19 +1,19 @@
 {
   "name": "quranradio",
   "displayName": "Quran Radio",
-  "description": "Listen 24/7 music designed for coding",
+  "description": "A simple vs code extension to listen to Quran recitation",
   "keywords": ["quranradio", "freecodecamp", "radio", "streaming", "music"],
-  "publisher": "lakuapik",
+  "publisher": "MostafaWael",
   "icon": "logo.png",
   "version": "0.0.1",
   "license": "MIT",
   "engines": {
     "vscode": "^1.50.0"
   },
-  "homepage": "https://github.com/lakuapik/vscode-quranradio",
+  "homepage": "https://github.com/Mostafa-wael/Quran-Radio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lakuapik/vscode-quranradio.git"
+    "url": "https://github.com/Mostafa-wael/Quran-Radio.git"
   },
   "categories": [
     "Other"
