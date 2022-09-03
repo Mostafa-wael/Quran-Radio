@@ -2,7 +2,8 @@
 import * as vscode from "vscode";
 import { platform as osPlatform } from 'os';
 // constants
-const appName = "quranradio";
+export const appName = "quranradio";
+ 
 
 // functions
 /**
@@ -10,12 +11,12 @@ const appName = "quranradio";
  * @returns The path of the vlc media player
  */
 export function getMediaPlayer() {
-    let vlc = "";
+    let vlcPath = "";
     if (osPlatform().includes('win')) {
-        vlc = "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe";
+        vlcPath = "C:\\Program\ Files\ (x86)\\VideoLAN\\VLC\\vlc.exe";
     }
     else {
-        vlc = "/snap/bin/vlc"; // mac/linux
+        vlcPath = "/snap/bin/vlc"; // mac/linux
     }
-    return vscode.workspace.getConfiguration(appName).get("vlc_path") || vlc;
+    return vscode.workspace.getConfiguration(appName).get("vlc_path") || vlcPath;
 }

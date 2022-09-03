@@ -7,7 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [v0.0.1] - 2022-9-3
 
 - Initial release
-  - can stream quran (tested on linux and windows).
+  - can stream quran (tested on linux only).
   - can change vlc_path in settings.
   - reminds you to listen to quran.
   - supports multiple radio stations.

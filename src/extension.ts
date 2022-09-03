@@ -2,8 +2,7 @@
 import * as vscode from "vscode";
 import { playStream, stopStream, } from './stream';
 import { changeRadio, } from './changeRadio';
-// constants
-const appName = "quranradio";
+import { appName, } from './utilities';
 
 // functions
 /**

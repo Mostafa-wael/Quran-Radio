@@ -1,5 +1,8 @@
 # Quran Radio (vscode-extension)
+
 A simple vs code extension to listen to Quran recitation.
+
+
 ![logo](logo.png)
 <div align="center">
   
@@ -7,7 +10,7 @@ A simple vs code extension to listen to Quran recitation.
 [![GitHub issues](https://img.shields.io/github/issues/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-cli/issues)
 [![GitHub forks](https://img.shields.io/github/forks/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-cli/network)
 [![GitHub stars](https://img.shields.io/github/stars/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-cli/stargazers)
-[![GitHub license](https://img.shields.io/github/license/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-cli/blob/master/LICENSE)
+
 <img src="https://img.shields.io/github/languages/top/Mostafa-wael/Quran-Radio"> 
 
 </div>

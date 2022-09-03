@@ -2,9 +2,9 @@
 import { platform as osPlatform } from 'os';
 import * as vscode from "vscode";
 import { startCommand } from './changeRadio';
+import { appName, } from './utilities';
 
 // constants
-const appName = "quranradio";
 const windowsTerminal = "C:\\Windows\\System32\\cmd.exe";
 const linuxTerminal = "/bin/bash";
 // variables
