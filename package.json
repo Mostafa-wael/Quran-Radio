@@ -1,0 +1,61 @@
+{
+  "name": "quranradio",
+  "displayName": "Quran Radio",
+  "description": "Listen 24/7 music designed for coding",
+  "keywords": ["quranradio", "freecodecamp", "radio", "streaming", "music"],
+  "publisher": "lakuapik",
+  "icon": "icon.png",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "homepage": "https://github.com/lakuapik/vscode-quranradio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lakuapik/vscode-quranradio.git"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "quranradio.play",
+        "title": "Quran Radio - play"
+      },
+      {
+        "command": "quranradio.stop",
+        "title": "Quran Radio - stop"
+      }
+    ],
+    "configuration": {
+      "title": "Quran Radio",
+      "properties": {
+        "quranradio.vlc_path": {
+          "description": "vlc executable path",
+          "type": "string"
+        }
+      }
+    }
+  },
+
+  "scripts": {
+    "compile": "tsc -p ./",
+    "lint": "eslint src --ext ts",
+    "watch": "tsc -watch -p ./",
+    "package": "yarn lint && yarn compile && vscde package"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.50.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": "^7.9.0",
+    "typescript": "^4.0.2"
+  }
+}
