@@ -3,6 +3,10 @@ import { get as fetch } from 'https';
 import { updateSidebar } from "./UI";
 import { startTerminal, stopTerminal } from "./terminal";
 
+/**
+ * 
+ * @returns The internet connection status
+ */
 async function hasConnection() {
   const portal = "https://detectportal.firefox.com/success.txt";
   return new Promise<boolean>((resolve, reject) => {
@@ -11,7 +15,9 @@ async function hasConnection() {
   });
 }
 
-
+/**
+ * Runs the radio.
+ */
 export async function playStream() {
   if (!(await hasConnection())) {
     vscode.window.showInformationMessage("Can't play, no internet connection.");
@@ -21,6 +27,9 @@ export async function playStream() {
   startTerminal();
 }
 
+/**
+ * Stops the radio.
+ */
 export async function stopStream() {
   updateSidebar("▶ Quran Radio", "▶ Start playing", "quranradio.play");
   stopTerminal();
