@@ -6,10 +6,10 @@ A simple vs code extension to listen to Quran recitation.
 ![logo](logo.png)
 <div align="center">
   
-[![GitHub contributors](https://img.shields.io/github/contributors/Mostafa-wael/Quran-Radio)](https://img.shields.io/github/contributors/Mostafa-wael/Quran-cli)
-[![GitHub issues](https://img.shields.io/github/issues/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-cli/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-cli/network)
-[![GitHub stars](https://img.shields.io/github/stars/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-cli/stargazers)
+[![GitHub contributors](https://img.shields.io/github/contributors/Mostafa-wael/Quran-Radio)](https://img.shields.io/github/contributors/Mostafa-wael/Quran-Radio)
+[![GitHub issues](https://img.shields.io/github/issues/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-Radio/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-Radio/network)
+[![GitHub stars](https://img.shields.io/github/stars/Mostafa-wael/Quran-Radio)](https://github.com/Mostafa-wael/Quran-Radio/stargazers)
 
 <img src="https://img.shields.io/github/languages/top/Mostafa-wael/Quran-Radio"> 
 
