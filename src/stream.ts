@@ -4,7 +4,7 @@ import { updateSidebar } from "./UI";
 import { startTerminal, stopTerminal } from "./terminal";
 
 /**
- * 
+ * Check the status of the internet connection.
  * @returns The internet connection status
  */
 async function hasConnection() {
