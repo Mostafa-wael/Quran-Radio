@@ -31,6 +31,10 @@
       {
         "command": "quranradio.stop",
         "title": "Quran Radio - stop"
+      },
+      {
+        "command": "quranradio.changeRadio",
+        "title": "Quran Radio - changeRadio"
       }
     ],
     "configuration": {
@@ -39,7 +43,12 @@
         "quranradio.vlc_path": {
           "description": "vlc executable path",
           "type": "string"
+        },
+        "quranradio.reminderInterval": {
+          "description": "interval(hour) to remind you of listening to Quran",
+          "type": "number"
         }
+
       }
     }
   },

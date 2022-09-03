@@ -1,8 +1,10 @@
+// imports
 import * as vscode from "vscode";
 import { get as fetch } from 'https';
 import { updateSidebar } from "./UI";
 import { startTerminal, stopTerminal } from "./terminal";
 
+// functions
 /**
  * Check the status of the internet connection.
  * @returns The internet connection status
