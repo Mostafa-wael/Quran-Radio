@@ -23,7 +23,8 @@ A simple vs code extension to listen to Quran recitation.
 
 https://user-images.githubusercontent.com/56788883/188315090-716ea2e0-0e95-4324-afb8-d69203cab50a.mp4
 
-
+## How to install?
+- Follow this [link](https://marketplace.visualstudio.com/items?itemName=MostafaWael.quranradio)
 
 ## How to use?
 #### UI
