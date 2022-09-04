@@ -19,6 +19,11 @@ A simple vs code extension to listen to Quran recitation.
 - Install **vlc** as it is required for playing the audio.
   - Linux: `snap install vlc` or `sudo apt install vlc`
   - Windows: [Follow This link](https://www.videolan.org/vlc/download-windows.html)
+## Demo
+
+https://user-images.githubusercontent.com/56788883/188315090-716ea2e0-0e95-4324-afb8-d69203cab50a.mp4
+
+
 
 ## How to use?
 #### UI
