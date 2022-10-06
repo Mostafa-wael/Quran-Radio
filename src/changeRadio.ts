@@ -18,7 +18,9 @@ export async function changeRadio() {
   const radio = await vscode.window.showQuickPick(radios, {
     placeHolder: "Select a radio",
   });
-  currentRadio = await getCurrentRadio(radio || "");
+  if (radio) {
+    currentRadio = (await getCurrentRadio(radio)) || currentRadio;
+  }
   vscode.window.showInformationMessage("Current radio is: " + radio);
   startCommand = `"${getMediaPlayer()}" ${currentRadio} --intf dummy`;
   // play the radio when chosen

@@ -1,7 +1,9 @@
+//map between surahs and surahId that used in the radio url
+
 export const recitersMap = new Map();
 recitersMap.set("AbdulBaset AbdulSamad [Mujawwad]", "abdulbasitmujawwad");
 recitersMap.set("AbdulBaset AbdulSamad [Murattal]", "abdulbasitmurattal");
-recitersMap.set("Mishary Rashid Alafasy", "alafasy");
+recitersMap.set("Mashary Rashid Alafasy", "alafasy");
 recitersMap.set("Ayman Swed", "aymanswed");
 recitersMap.set("Bandar Balila", "bandarbalila");
 recitersMap.set("Laayoun El Kouchi", "laayounelkouchi");
@@ -18,28 +20,31 @@ recitersMap.set("Yasser Salama", "yassersalama");
 recitersMap.set("Ahmed ibn Ali al-Ajamy", "ahmedalajmi");
 recitersMap.set("Mahmud Ali Al Banna", "mahmoudalialbanna");
 recitersMap.set("Mahmoud Khalil Al-Husary", "husr");
-
 //------------------------------------------------------
+//names of the different radios
 export const radios = [
-  "Mahmoud Khalil Al-Husary",
-  "Muhammad Siddeeq al-Minshawi [Mujawwad]",
-  "AbdulBaset AbdulSamad [Mujawwad]",
+  "AbdulBaset AbdulSamad [Rewayat-Warsh-A-n-Nafi]",
   "AbdulBaset AbdulSamad [Murattal]",
-  "Mostafa Ismaeel",
+  "AbdulBaset AbdulSamad [Mujawwad]",
   "Amazing short Recitations",
-  "Mix Recitations",
-  "Beautiful Recitations",
-  "Mishary Rashid Alafasy",
+  "Ahmed ibn Ali al-Ajamy",
   "Ayman Swed",
   "Bandar Balila",
+  "Beautiful Recitations",
   "Laayoun El Kouchi",
+  "Ra'ad Al-Kurdi",
+  "Mahmoud Khalil Al-Husary",
+  "Mahmoud Khalil Al-Husary [Rewayat-Warsh-A-n-Nafi]",
+  "Mahmoud Khalil Al-Husary [Mujawwad]",
+  "Mahmud Ali Al Banna",
+  "Mashary Rashid Alafasy",
   "Mohamed Al-Tablawi",
+  "Muhammad Siddeeq al-Minshawi [Mujawwad]",
+  "Mostafa Ismaeel",
+  "Mix Recitations",
   "Nasser Alqatami",
   "Yasser Al_Dosari",
-  "Ra'ad Al-Kurdi",
   "Yasser Salama",
-  "Ahmed ibn Ali al-Ajamy",
-  "Mahmud Ali Al Banna",
 ];
 //--------------------------------
 export const surahs = [
@@ -159,6 +164,7 @@ export const surahs = [
   "An-Nas",
 ];
 //----------------------------------
+//map of the surahs and it is order in the quran
 export const surahMap = new Map();
 surahs.forEach((surah, index) => {
   surahMap.set(surah, index + 1);
