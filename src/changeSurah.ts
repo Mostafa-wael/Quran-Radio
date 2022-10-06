@@ -10,7 +10,16 @@ export async function getCurrentRadio(reciter: string) {
   }
   const surahNumber = surahMap.get(await changeSurah());
   const reciterId = recitersMap.get(reciter);
-  const radio = `https://cdn.islamic.network/quran/audio-surah/128/ar.${reciterId}/${surahNumber}.mp3`;
+  const radio =
+    reciterId === "kurdi"
+      ? `https://server6.mp3quran.net/kurdi/${surahNumber
+          .toString()
+          .padStart(3, "0")}.mp3`
+      : reciterId === "husr"
+      ? `https://server13.mp3quran.net/husr/${surahNumber
+          .toString()
+          .padStart(3, "0")}.mp3`
+      : `https://cdn.islamic.network/quran/audio-surah/128/ar.${reciterId}/${surahNumber}.mp3`;
   return radio;
 }
 
