@@ -2,7 +2,13 @@
   "name": "quranradio",
   "displayName": "Quran Radio",
   "description": "A simple vs code extension to listen to Quran recitation",
-  "keywords": ["quranradio", " quran", "radio", "streaming", "recitation"],
+  "keywords": [
+    "quranradio",
+    " quran",
+    "radio",
+    "streaming",
+    "recitation"
+  ],
   "publisher": "MostafaWael",
   "icon": "logo.png",
   "version": "0.0.1",
@@ -48,11 +54,9 @@
           "description": "interval(hour) to remind you of listening to Quran",
           "type": "number"
         }
-
       }
     }
   },
-
   "scripts": {
     "compile": "tsc -p ./",
     "lint": "eslint src --ext ts",
