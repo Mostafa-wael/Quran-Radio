@@ -21,10 +21,12 @@ export function activate(context: vscode.ExtensionContext) {
 
   // reminder
   // converts hours to milliseconds
-  var reminderIntervalMs = Number(vscode.workspace.getConfiguration(appName).get("reminderInterval") || 3) * 60 * 60 * 1000;
-  setInterval(async function () {
-    vscode.window.showInformationMessage("Have you listened to Quran today?\n\n  ﴾الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ اللَّهِ ۗ أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴿");
-  }, reminderIntervalMs);
+  if (Number(vscode.workspace.getConfiguration(appName).get("reminderInterval")) > 0) {
+    var reminderIntervalMs = Number(vscode.workspace.getConfiguration(appName).get("reminderInterval")) * 60 * 60 * 1000;
+    setInterval(async function () {
+      vscode.window.showInformationMessage("Have you listened to Quran today?\n\n  ﴾الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ اللَّهِ ۗ أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴿");
+    }, reminderIntervalMs);
+  }
 }
 
 /**
